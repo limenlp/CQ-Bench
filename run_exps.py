@@ -131,7 +131,7 @@ if __name__ =='__main__':
         "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
     ])     
 
-    parser.add_argument('-g', '--setting',default='1') #setting 1 attitude detection, setting 2 value detection(multi-select)
+    parser.add_argument('-t', '--task',default='1') #setting 1 attitude detection, setting 2 value detection(multi-select)
     parser.add_argument('-r','--reasoning',action='store_true')
     parser.add_argument('-o','--output_folder',default='results')
     parser.add_argument('-p','--prompt',default='zero', choices=['zero','one'])
@@ -141,7 +141,7 @@ if __name__ =='__main__':
  
     model_name = args.model
 
-    setting = args.setting
+    setting = args.task
     category = args.category
     reasoning = args.reasoning
     prompt_type = args.prompt
