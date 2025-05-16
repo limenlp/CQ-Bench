@@ -1,5 +1,5 @@
 # CQ-Bench
-This repository is the codebase of the paper ["Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs' Metacognitive Cultural Intelligence with CQ-Bench"](https://arxiv.org/abs/2504.01127)
+
 
 ## Dataset
 We have 7 categories: random, political, ethical, religious, social, multiple and human, where humans means the dataset we use for human evaluation. 
