@@ -6,7 +6,7 @@ import json
 from tqdm import tqdm
 from run_exps_open_api import call_gpt
 from prompts_exps import llm_judge, llm_judge_topic_mentioned
-api_key = "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"
+api_key = os.getenv('YOU_API_KEY')
 MODEL_evaluation = 'gpt-4o'
 
 categories = ["ethics", "social", "religion", "politics", "security", "migration", "science"]
