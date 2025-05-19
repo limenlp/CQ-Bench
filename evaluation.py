@@ -237,12 +237,7 @@ if __name__ == "__main__":
             "Qwen/Qwen2.5-7B-Instruct",
             "Qwen/Qwen2.5-14B-Instruct",
             "Qwen/Qwen2.5-32B-Instruct",
-            '/home/ziyi/LLaMA-Factory/output/qwen2.5_7b_lora_sft_5',
-        '/home/ziyi/LLaMA-Factory/output/llama3.2_3b_lora_sft',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_14b_lora_sft_5',
-        '/home/ziyi/LLaMA-Factory/output/llama3.2_3b_lora_sft_attitude',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_7b_lora_sft_5_attitude',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_14b_lora_sft_5_attitude',
+            
             "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
             "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
             "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
