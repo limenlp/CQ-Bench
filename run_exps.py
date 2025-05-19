@@ -23,12 +23,7 @@ open_source_models = ['Qwen/Qwen2.5-7B-Instruct',
         'Qwen/Qwen2.5-14B-Instruct',
         'Qwen/Qwen2.5-32B-Instruct',
         'Llama-3.1-8B-Instruct',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_7b_lora_sft_5',
-        '/home/ziyi/LLaMA-Factory/output/llama3.2_3b_lora_sft',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_14b_lora_sft_5',
-        '/home/ziyi/LLaMA-Factory/output/llama3.2_3b_lora_sft_attitude',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_7b_lora_sft_5_attitude',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_14b_lora_sft_5_attitude',
+      
         'meta-llama/Llama-3.1-70B-Instruct',
         'meta-llama/Llama-3.2-3B-Instruct',
         "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
@@ -108,12 +103,7 @@ if __name__ =='__main__':
                     )
     parser.add_argument('-m', '--model',default= 'o3-mini',choices=[
         'Qwen/Qwen2.5-7B-Instruct',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_7b_lora_sft_5',
-        '/home/ziyi/LLaMA-Factory/output/llama3.2_3b_lora_sft',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_14b_lora_sft_5',
-        '/home/ziyi/LLaMA-Factory/output/llama3.2_3b_lora_sft_attitude',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_7b_lora_sft_5_attitude',
-        '/home/ziyi/LLaMA-Factory/output/qwen2.5_14b_lora_sft_5_attitude',
+   
         'Qwen/Qwen2.5-14B-Instruct',
         'Qwen/Qwen2.5-32B-Instruct',
         'gemini-2.0',
