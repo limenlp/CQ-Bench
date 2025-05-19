@@ -6,12 +6,11 @@ import pandas as pd
 from tqdm import tqdm
 from prompts import *
 from generate_story_pipeline import _obvious_check_and_rewrite
-api_key = "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"
-api_key_ds = "sk-24a356c7db8642f3bb94109e1d90a492"
+
 MODEL_generation = 'gpt-4o-mini'
 MODEL_validation = 'gpt-4o'
-client = OpenAI(api_key = api_key)
-client_ds = OpenAI(api_key = api_key_ds,base_url="https://api.deepseek.com")
+client = OpenAI(api_key = os.getenv('YOUR_KEY')
+
 values_option={}
 values = []
 reader = jsonlines.open('WVQ_opinion.jsonl')
